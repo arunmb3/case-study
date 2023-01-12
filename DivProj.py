@@ -54,7 +54,7 @@ model = model.fit(df[["Market Cap", "Net Income", "Free Cash Flow"]], df["Yield"
 
 
 
-pred_val = model.predict([[1.190000e+12 ,1.395600e+10/4 ,6.254000e+10]])
+pred_val = model.predict([[1.190000e+12 ,7.6033e+10/4 ,6.702000e+10/4]])
 
 print("GOOGL Dividend projection: " + str(pred_val*100) + "%")
 
