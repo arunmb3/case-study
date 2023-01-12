@@ -3,7 +3,7 @@ from sklearn.linear_model import LinearRegression
 import numpy as np
 #calculate the projected divided
 
-df = pd.read_csv("DivPredict3 - Sheet1.csv")
+df = pd.read_csv("DividendData - Sheet1.csv")
 
 for index in df.index:
     #market cap processing
